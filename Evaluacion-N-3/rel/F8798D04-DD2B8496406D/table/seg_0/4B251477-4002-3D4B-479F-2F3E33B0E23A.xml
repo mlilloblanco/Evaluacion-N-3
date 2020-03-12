@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B251477-4002-3D4B-479F-2F3E33B0E23A" name="Cursos">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>0B14D8CD-7CBA-67A6-DD90-4EE87EC0F774</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="7723BFC2-E829-AE41-4C8C-16812C5F2669">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>111C7A55-5ED9-2143-35C5-23495013D87B</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_curso</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreCurso" id="E76CD2CF-BEA2-8D55-5855-DFC22B2DC1B1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>71D6413B-1EDA-0338-2FA8-832A84D2C162</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraInicio" id="DBD5E933-82C3-4D87-FA53-64347823DE0E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>9F237404-FDC1-2B28-54DF-2503D7C84CA5</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraFin" id="6E4CC130-46C1-33E8-B2D4-952215D2A126">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>16896BD8-67BC-6BD4-8AA0-A02CB96E667A</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB7F7366-A248-2C86-D8E6-CE2B29E92C0B" name="Cursos_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>C5353793-4E81-86B5-9D6F-73E5EBC3AB42</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7723BFC2-E829-AE41-4C8C-16812C5F2669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

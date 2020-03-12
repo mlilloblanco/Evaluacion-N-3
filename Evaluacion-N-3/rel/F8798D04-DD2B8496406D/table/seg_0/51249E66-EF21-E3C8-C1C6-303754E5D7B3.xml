@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51249E66-EF21-E3C8-C1C6-303754E5D7B3" name="Preguntas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>8D12B514-B0CD-54C1-7A90-4318D9F04866</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pregunta" id="98391C33-4778-2AEF-F971-E2E92ED7B3CC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>6109F4DC-2C04-4834-C63C-196947E7B3A3</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_pregunta</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="6A9BCFCB-A407-EA4F-BC9E-F0A2A2279648">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>8C4DA15D-0BA3-66C1-6CF8-74243C85E54A</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntajeAsociado" id="227581EB-2D42-C027-BFAB-4166DE6D503E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>B1522B32-8E85-90A3-A106-050BB0E22990</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_test" id="FA373DB5-64ED-AC73-D5E5-D201562C78E7">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>91B91D21-3D7D-FD89-1835-E56A758BF352</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_test</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4758416-1782-13A5-B47D-0CC1CB1F3D43" referredColumn="9D3019C2-5F8F-F8AA-E07C-1EE556F5C9B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD5CC968-CAF9-FAC1-7F08-54A9BB37F699" name="Preguntas_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>88D6A9AA-662D-040D-A1F7-3AC3DBB9E0AF</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98391C33-4778-2AEF-F971-E2E92ED7B3CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF112343-D461-8690-8AC7-DAA101DA6836" name="Preguntas_Test_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>D55023D2-8EA4-7336-A36B-56FBD84FC5A4</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA373DB5-64ED-AC73-D5E5-D201562C78E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

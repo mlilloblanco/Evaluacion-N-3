@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB45D588-9C39-93A1-7D85-C6CDC5FC2653" name="Alternativas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>BD424328-C7C5-0A4E-66DA-F3868AF418D4</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alternativa" id="209A2807-7FBB-75E0-DDC0-5900B7A5CEC1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>0723BD13-5E4A-2D6F-F9FD-F47E2104766E</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_alternativa</abbreviation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="6B6FF375-8B55-E697-AA64-2FEBE9BD7E92">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>992978C5-DADC-173D-71D8-2EF616767FBC</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correcta_incorrecta" id="BFAC69CF-A081-B801-3EE0-601132484118">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<comment><![CDATA[1 correcto
+0 incorrecto]]></comment>
+<generatorID>93F3B1D0-BC81-148D-E4A9-095A58B49285</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentajeCorrecta" id="3B27CFB6-C6C4-DD3E-10FF-0FE9176D1494">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>754A78C9-D396-15E0-1C66-72B456BF20C7</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pregunta" id="F11CFF33-D88C-EBD5-F366-15E7350C0F13">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>41FC19F0-2B9E-42F8-4BCD-43B19981EF2B</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_pregunta</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B1B5E6F-0AC8-DA2F-D0E8-00AB48EB5553" referredColumn="98391C33-4778-2AEF-F971-E2E92ED7B3CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4066117B-B746-E7C9-D4AF-D5FEDC9A3EED" name="Alternativas_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>E175D22B-99B1-2D84-5E43-06DB4123E733</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="209A2807-7FBB-75E0-DDC0-5900B7A5CEC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC1BAD53-1343-D03D-46E3-6856A9634D33" name="Alternativas_Preguntas_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>FFF8D6FA-E611-6AC4-0180-9395831E79E0</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F11CFF33-D88C-EBD5-F366-15E7350C0F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CursosAlumnos" directorySegmentName="seg_0" id="AEC997FF-D96F-94BA-0D50-AE3632EAF5A8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:33:52 UTC</createdTime>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<engineerTo>
+<item key="F8798D04-C7A1-ECFD-B66C-DD2B8496406D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0B14D8CD-7CBA-67A6-DD90-4EE87EC0F774</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E2ECA783-3BF4-06C1-9C0A-5626DEF40DF9</targetEntity>
+<transferable>true</transferable>
+</Relation>

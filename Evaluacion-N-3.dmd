@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Evaluacion-N-3" id="C8E240D7-6863-3835-C13D-1C5A331967AE" version="3.5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:12:00 UTC</createdTime>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C8E240D7-6863-3835-C13D-1C5A331967AE</designId>
+</OSDM_Design>

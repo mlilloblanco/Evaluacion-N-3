@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42422DE1-5EC1-FB83-606B-6582DA52199F" name="CursosAlumnos">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="9729FE8C-7E01-6095-122B-4903B5FAE841">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_curso</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87E04AA9-D637-FC1F-4DD1-DD7DE95DFCB2" referredColumn="7723BFC2-E829-AE41-4C8C-16812C5F2669"/>
+</associations>
+</Column>
+<Column name="id_alumno" id="206F8307-AD74-4507-67D9-F33F35B2629C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<abbreviation>id_alumno</abbreviation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="124FD601-560E-986C-CDB2-082C49ACACB2" referredColumn="3384E917-2C3A-DA4F-1B45-4F6C35BCE68A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1807117E-BED0-FEBB-BD23-DEE4C18111C4" name="CursosAlumnos_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9729FE8C-7E01-6095-122B-4903B5FAE841"/>
+<colUsage columnID="206F8307-AD74-4507-67D9-F33F35B2629C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E34E368C-2A20-E84A-764D-3024A7178016" name="CursosAlumnos_Cursos_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>AEC997FF-D96F-94BA-0D50-AE3632EAF5A8</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9729FE8C-7E01-6095-122B-4903B5FAE841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F445C750-6FBF-879E-781C-342B4E904090" name="CursosAlumnos_Alumnos_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 17:39:19 UTC</createdTime>
+<generatorID>AEC997FF-D96F-94BA-0D50-AE3632EAF5A8</generatorID>
+<ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="206F8307-AD74-4507-67D9-F33F35B2629C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
