@@ -7,4 +7,4 @@ Finalmente se solicita generar diversos scripts DML para ingresar datos a las BB
 La solución consiste en generar el modelo lógico y relacional a través de oracle sql data modeler, a través del cual generar un DDL que pueda generar automaticamente las bases de datos y sus tablas respectivas en oracle sql developer, generar los scripts de carga de información, para luego consultar la información requerida.
 
 
-![modelo relacional](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+![modelo relacional](https://github.com/mlilloblanco/evaluacion-N-3/blob/master/Relational_1.png)
