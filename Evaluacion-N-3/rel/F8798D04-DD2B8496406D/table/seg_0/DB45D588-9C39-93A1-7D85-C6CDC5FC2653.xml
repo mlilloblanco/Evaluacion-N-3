@@ -40,11 +40,16 @@
 0 incorrecto]]></comment>
 <generatorID>93F3B1D0-BC81-148D-E4A9-095A58B49285</generatorID>
 <ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<constraintName>binaria</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT034</logicalDatatype>
 <dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="0" description="incorrecta"/>
+<valueDef value="1" description="correcta"/>
+</listOfValues>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

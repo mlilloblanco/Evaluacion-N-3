@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegistroRespuestasv1_Preguntas_FK" directorySegmentName="seg_0" id="031BDFE8-8355-2478-E59C-7944C4DBFF82">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegistroRes Preguntas FK" directorySegmentName="seg_0" id="031BDFE8-8355-2478-E59C-7944C4DBFF82">
 <createdBy>Alumno</createdBy>
 <createdTime>2020-03-12 19:47:25 UTC</createdTime>
 <generatorID>6F4B4ABF-D7B4-377C-B86A-219DA91DC910</generatorID>

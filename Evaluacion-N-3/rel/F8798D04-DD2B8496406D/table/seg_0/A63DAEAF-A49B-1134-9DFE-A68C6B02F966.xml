@@ -88,16 +88,21 @@
 <createdTime>2020-03-12 19:44:42 UTC</createdTime>
 <generatorID>46F0CEFC-4CB5-0B4E-9023-2933459F3E4F</generatorID>
 <ownerDesignName>Evaluacion-N-3</ownerDesignName>
+<constraintName>binaria</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT034</logicalDatatype>
 <dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="0" description="no seleccionada"/>
+<valueDef value="1" description="seleccionada"/>
+</listOfValues>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AD155C81-3D64-968A-9A48-A04021E4D900" name="RegistroRespuestasv1_PK">
+<ind_PK_UK id="AD155C81-3D64-968A-9A48-A04021E4D900" name="RegistroRespuestas_PK">
 <createdBy>Alumno</createdBy>
 <createdTime>2020-03-12 19:44:42 UTC</createdTime>
 <generatorID>4D9CA148-95EF-DD14-CE8D-880BCF0AB72D</generatorID>

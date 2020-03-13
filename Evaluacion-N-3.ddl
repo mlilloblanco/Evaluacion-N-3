@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 19.4.0.350.1424
---   en:        2020-03-12 17:01:48 CLST
+--   en:        2020-03-12 20:26:22 CLST
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -41,11 +41,11 @@ ALTER TABLE cursosalumnos ADD CONSTRAINT cursosalumnos_pk PRIMARY KEY ( id_curso
                                                                         id_alumno );
 
 CREATE TABLE cursostest (
-    iid_curso  INTEGER NOT NULL,
-    id_test    INTEGER NOT NULL
+    id_curso  INTEGER NOT NULL,
+    id_test   INTEGER NOT NULL
 );
 
-ALTER TABLE cursostest ADD CONSTRAINT cursostest_pk PRIMARY KEY ( iid_curso,
+ALTER TABLE cursostest ADD CONSTRAINT cursostest_pk PRIMARY KEY ( id_curso,
                                                                   id_test );
 
 CREATE TABLE preguntas (
@@ -67,12 +67,12 @@ CREATE TABLE registrorespuestas (
 );
 
 ALTER TABLE registrorespuestas
-    ADD CONSTRAINT registrorespuestasv1_pk PRIMARY KEY ( id_alumno,
-                                                         id_test,
-                                                         id_pregunta,
-                                                         id_alternativa,
-                                                         seleccion,
-                                                         id_curso );
+    ADD CONSTRAINT registrorespuestas_pk PRIMARY KEY ( id_alumno,
+                                                       id_test,
+                                                       id_pregunta,
+                                                       id_alternativa,
+                                                       seleccion,
+                                                       id_curso );
 
 CREATE TABLE test (
     id_test        INTEGER NOT NULL,
@@ -99,7 +99,7 @@ ALTER TABLE cursosalumnos
         REFERENCES cursos ( id_curso );
 
 ALTER TABLE cursostest
-    ADD CONSTRAINT cursostest_cursos_fk FOREIGN KEY ( iid_curso )
+    ADD CONSTRAINT cursostest_cursos_fk FOREIGN KEY ( id_curso )
         REFERENCES cursos ( id_curso );
 
 ALTER TABLE cursostest
