@@ -5,3 +5,6 @@ La problematica de este ejercicio es generar un modelo lógico y relacional para
 Finalmente se solicita generar diversos scripts DML para ingresar datos a las BBDD creadas, asi como scripts DCL para consultar información de las BBDD creadas.
 
 La solución consiste en generar el modelo lógico y relacional a través de oracle sql data modeler, a través del cual generar un DDL que pueda generar automaticamente las bases de datos y sus tablas respectivas en oracle sql developer, generar los scripts de carga de información, para luego consultar la información requerida.
+
+
+![modelo relacional](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
